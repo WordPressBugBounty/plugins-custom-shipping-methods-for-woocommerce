@@ -3,7 +3,7 @@ Contributors: dhruvin, ImagiSol
 Tags: woocommerce, shipping, custom shipping, weight based shipping, conditional shipping, woocommerce shipping, shipping methods, advanced shipping, quantity shipping, shipping fees, fees, volume shipping, table rate shipping, own shipping, local shipping
 Requires at least: 4.4
 Requires PHP: 5.6
-Tested up to: 6.6
+Tested up to: 6.9
 Stable tag: trunk
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
