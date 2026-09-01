@@ -2,8 +2,8 @@
 Contributors: dhruvin, ImagiSol
 Tags: woocommerce, shipping, custom shipping, weight based shipping, conditional shipping, woocommerce shipping, shipping methods, advanced shipping, quantity shipping, shipping fees, fees, volume shipping, table rate shipping, own shipping, local shipping
 Requires at least: 4.4
-Requires PHP: 5.6
-Tested up to: 6.9
+Requires PHP: 8
+Tested up to: 7.1
 Stable tag: trunk
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -102,8 +102,13 @@ Also, add custom text with HTML for Free Shipping i.e Zero cost.
 
 == Changelog ==
 
+= 1.9.2 - 01/09/2026 =
+* Compatibility with WP 7.1
+* Compatibility with WooCommerce 11
+* Fixed legacy code for fetching Shipping classes.
+
 = 1.9.1 - 12/11/2023 =
-* Fixed an issue occuring due to inaccessible class
+* Fixed an issue occurring due to inaccessible class
 
 = 1.9.0 - 11/11/2023 =
 * Compatibility with HPOS

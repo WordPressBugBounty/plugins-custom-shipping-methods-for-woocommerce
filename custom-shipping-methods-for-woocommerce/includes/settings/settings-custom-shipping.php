@@ -373,7 +373,7 @@ $settings = array_merge(
 );
 
 // Shipping class settings.
-$shipping_classes = WC()->shipping->get_shipping_classes();
+$shipping_classes = WC()->shipping()->get_shipping_classes();
 if ( ! empty( $shipping_classes ) ) {
 	$settings['class_costs'] = array(
 		'title'       => __( 'Shipping class costs', 'custom-shipping-methods-for-woocommerce' ),

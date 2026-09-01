@@ -3,13 +3,13 @@
  * Plugin Name: Custom Shipping Methods for WooCommerce
  * Plugin URI: https://imaginate-solutions.com/downloads/custom-shipping-methods-for-woocommerce/
  * Description: Add custom shipping methods to WooCommerce.
- * Version: 1.9.1
+ * Version: 1.9.2
  * Author: Imaginate Solutions
  * Author URI: https://imaginate-solutions.com
  * Text Domain: custom-shipping-methods-for-woocommerce
  * Domain Path: /langs
- * Copyright: © 2023 Imaginate Solutions
- * WC tested up to: 8.2
+ * Copyright: © 2026 Imaginate Solutions
+ * WC tested up to: 11
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -37,7 +37,7 @@ if ( ! class_exists( 'Alg_WC_Custom_Shipping_Methods' ) ) :
 		 * @var   string
 		 * @since 1.0.0
 		 */
-		public $version = '1.9.1';
+		public $version = '1.9.2';
 
 		/**
 		 * Single instance of class.

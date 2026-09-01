@@ -489,7 +489,7 @@ if ( ! class_exists( 'WC_Shipping_Alg_Custom' ) ) :
 			}
 
 			// Add shipping class costs.
-			$shipping_classes = WC()->shipping->get_shipping_classes();
+			$shipping_classes = WC()->shipping()->get_shipping_classes();
 
 			if ( ! empty( $shipping_classes ) ) {
 				$found_shipping_classes = $this->find_shipping_classes( $package );
